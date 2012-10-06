@@ -9,6 +9,8 @@
   <tile id="15">
    <properties>
     <property name="Test_T1" value="0"/>
+    <property name="test_18" value="15"/>
+    <property name="test_22" value="Chocolat"/>
    </properties>
   </tile>
   <tile id="45">
@@ -19,7 +21,7 @@
  </tileset>
  <layer name="Sol" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt1zEOgCAMQFHkAMQjef9TORgTbVBc6OJ7SRfXL0VbLWVbjmn12zBPq/cWZ5v4TI8c8d2/9jg76JGn16DXRI8c8Wxc+/TOhh5zPe2pt2Ge2GMt473FPG/7yv2Rr9cj3iF65Bl96+qR6+s/uR459AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4tx1X5RRI
+   eJzt18EJhDAQQNFsCghbkv1XJSIBd4jRS+ay78EgePSbRFstZfuc0+q7YZ1Wf1v0NvGeHjniu3/t0TvokWfUYNREjxxxbVz7jNaGHmvd7VOzYZ2jxbecczzrfp3tW6wTe9yd6farHKPzI54heuR5+tbVI9fbf3I9cugBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8N92OvAUFw==
   </data>
  </layer>
  <layer name="Objet" width="100" height="100">
