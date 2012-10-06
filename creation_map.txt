@@ -1,0 +1,18 @@
+Pour créer une map il faut respecter les règles suivantes. 
+
+	I   Base
+		1. Les maps doivent être créées avec le logiciel "Tiled"
+		2. Une map doit être enregistrée au format "tmx" format de base du logiciel Tiled.
+		3. La map doit être enregistrée dans le dossier "map" du projet.
+		4. Les "Tilesets" utilisés pour réaliser la map doivent être sauvgardé eux aussi dans le projet sous le dossier "tileset"
+		5. Atention les Tileset doivent être libre de droit pour une utilisation légale du jeu.
+
+	II  La map
+		1. Une map doit avoir un nom
+		2. Une map n'a pas de taille prédéfini.
+		3. Chaque Tiles utilisé sur la map doit être défini par au moins une propriété nomé "obstacle" dont la valeur est comprise entre la valeur "0" pour définir que le Tile est libre de passage et la valeur "1" pour définir que le Tile est bloque le passage.
+		4.
+
+	III Les Tiles
+		1. Chaque tiles doit être un carré de 32px/32px
+		2. 

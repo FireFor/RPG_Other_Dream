@@ -1,0 +1,37 @@
+Pour créer un personnage il faut respecter les règles suivantes. 
+
+	I   Base
+		1. Les personnage sont définie par deux type élément distinct, ses caractéristiques tecnhique d'un coté et ses images d'annimations.
+		2. Les images d'annimation doivent êtres libres de droits pour une utilisation legal du jeu.
+		3. Les images des personnages doivent être enregistré dans le projet sous le dossier "personnage"
+	
+	II. Les images
+		1. Un personage est composé de 4 Images de mouvements.
+		2. L'image de ses déplacements décomposé en 9 mouvements pour chaque direction (Haut, Gauche, Bas, Droite) [36ims]
+		3. L'image de l'altération du niveau de vie du personage décomposé en 6 mouvements
+		4. L'image de ses mouvement d'attaque phisique décomposé en 6 mouvements dans les 4 directions  (Haut, Gauche, Bas, Droite)
+		5. L'image de ses mouvement d'attaque magique décomposé en 7 mouvements dans les 4 directions  (Haut, Gauche, Bas, Droite)
+		6. La tenue d'un personage est séparé du personage et doit donc être créés de facon a épouser chaque mouvement du personnage.
+		7. Une tenue peut être séparée en plusieur éléments.  
+
+	III Les caractéristiques
+		1. Un personage doit avoir un Nom.
+		2. Un Nom court.
+		3. Une classe.
+		4. Un sexe.
+		5. Une Importance.
+		6. Une arme de base.
+		7. Une force.
+		8. Une Intéligence.
+		9. Une agilité.
+		10. Une résitences.
+		11. Une endurance.
+		12. Une chance.
+		13. Une attaque. (formule)
+		14. Une défence. (formule)
+		15. Une esquive. (formule)
+		16. Un contre. (formule)
+		17. Une affinité.
+		30. Un corps
+		31. Une coifure
+		32. Une tenue
