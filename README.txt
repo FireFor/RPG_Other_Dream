@@ -1,0 +1,1 @@
+Le projet "RPG Other Dream" (nom de code et temproraire), est un projet de jeu créé par Nicolas (alias NitriX)

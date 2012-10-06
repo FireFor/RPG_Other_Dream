@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="free_tileset_version_10" tilewidth="32" tileheight="32">
+  <tileoffset x="2" y="2"/>
+  <image source="../../tilset/free_tileset_version_10.png" width="480" height="1216"/>
+ </tileset>
+ <layer name="Sol" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt17ENgCAQQFFlAGZy/6ksDAkSRCy4xveSa2y/B5rTth37NTnNDevkdG9R2rTP9IjRvvt1j9JBjzi9Br0mesRod6Pu09sNPdZ6OqdGwzpfetiP9UbnlfsjXq9He4foEeftW1ePWLP/5HrE0AMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg305zWBR5
+  </data>
+ </layer>
+ <layer name="Objet" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENgzAURVHjBUAMECT2nyqwQMgCfCVFFJrQkO/iHOkV7izfwqWcM9bPuN7w4531+K9jj7n7PuuR49iBtvTRZ9CoGbdoMekBNOYeW2Jr9kV4ecS22DP7IrzFv93Fqv8bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFLsKKQHBA==
+  </data>
+ </layer>
+ <objectgroup name="Calque d'objets 1" width="100" height="100">
+  <object x="43" y="32">
+   <polygon points="12,-1 12,82 68,83 71,-3 94,-27"/>
+  </object>
+  <object x="230" y="195">
+   <polyline points="0,0 90,13 113,-32 88,-72 43,-61 1,0"/>
+  </object>
+ </objectgroup>
+</map>
