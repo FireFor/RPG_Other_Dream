@@ -1,0 +1,5 @@
+Luminosité et contraste
+Blanc : 0;0
+Maron : -95;80
+Noire : -115;80
+Jaune : 0;75
