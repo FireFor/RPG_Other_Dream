@@ -1,3 +1,10 @@
 French project "RPG Other Dream" (temporary codename). Nothing to see here.
 
 Projet "RPG Other Dream" (nom de code temporaire). Rien à voir ici.
+
+
+Libraries / Bibliothèques :
+
+ * LÖVE (https://love2d.org/)
+ * Tiled (http://www.mapeditor.org/)
+ * Advanced Tiled Loader (https://github.com/Kadoba/Advanced-Tiled-Loader)
