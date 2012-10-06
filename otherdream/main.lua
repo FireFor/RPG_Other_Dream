@@ -12,7 +12,7 @@ global.scale = 1				-- Scale of the screen
 -- Load the examples
 local example = {require("DesertExample"), require("IsoExample"),
 				require("PerspExample"), require("SewerExample"),
-				require("TestCarte01")}
+				require("TestCarte01"), require("TestCarte02")}
 
 local num = 1					-- The map we're currently on
 local fps = 0					-- Frames Per Second
