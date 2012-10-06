@@ -3,12 +3,25 @@ French project "RPG Other Dream" (temporary codename). Nothing to see here.
 Projet "RPG Other Dream" (nom de code temporaire). Rien à voir ici.
 
 
+Dependencies / Dépendances :
+
+ * LÖVE : https://love2d.org/
+
+Tools / Outils :
+
+ * Tiled : http://www.mapeditor.org/
+
 Libraries / Bibliothèques :
 
- * LÖVE (https://love2d.org/)
- * Tiled (http://www.mapeditor.org/)
- * Advanced Tiled Loader (https://github.com/Kadoba/Advanced-Tiled-Loader)
+ * Advanced Tiled Loader by Casey "Kadoba" Baxter : https://github.com/Kadoba/Advanced-Tiled-Loader
 
-Media / Média :
+Tilesets and Pictures / Jeux de tuiles et images :
 
- * http://silveiraneto.net/2009/07/31/my-free-tileset-version-10/
+ * Liberated Pixel Cup Assets by ? : http://lpc.opengameart.org/static/lpc-style-guide/assets.html
+
+Licenses / Licences :
+
+ * LÖVE : zlib/libpng
+ * Liberated Pixel Cup Assets : CC BY-SA 3.0 / GPL v3
+ * Advanced Tiled Loader : MIT ?
+ * "RPG Other Dream" : Unlicense
