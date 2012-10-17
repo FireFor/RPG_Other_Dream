@@ -1,6 +1,6 @@
-local gui = require("quickie")
-
 menu = Gamestate.new()
+
+local gui = nil
 
 -- lazy font loading
 local fonts = setmetatable({}, {__index = function(t,k)
@@ -25,6 +25,10 @@ local slider2d = {value = {.5,.5}}
 --état du jeu
 function menu:init()
 	print('<menu:init()>')
+	gui = require("libs.quickie")
+	
+	require("desert")
+	require("gameover")
 	print('</menu:init()>')
 end
 
@@ -106,7 +110,11 @@ function menu:update(dt)
 			menu_open.demo = not menu_open.demo
 		end
 		
-		if gui.Button{text = "Game over"} then
+		if gui.Button{text = "Map: desert", pos = {0, 20}} then
+			Gamestate.switch(desert)
+		end
+		
+		if gui.Button{text = "Game over", pos = {0, 20}} then
 			Gamestate.switch(gameover)
 		end
 

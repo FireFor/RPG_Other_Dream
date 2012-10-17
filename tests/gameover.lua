@@ -26,7 +26,7 @@ function gameover:keyreleased(key)
 end
 
 function gameover:keypressed(key, unicode)
-	
+	Gamestate.switch(menu)
 end
 
 function gameover:mousepressed(x, y, button)
@@ -51,7 +51,8 @@ function gameover:update(dt)
 end
 
 function gameover:draw()
-	love.graphics.print("Game over.", 0, 0)
+	love.graphics.print("Fin de partie.", 0, 0)
+	love.graphics.print("Cliquez ou appuyez pour revenir au menu.", 0, 100)
 end
 
 --adieu

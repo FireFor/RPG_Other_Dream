@@ -1,7 +1,12 @@
-Gamestate = require("hump.gamestate")
+serpent = require("libs.serpent.serpent")
+Gamestate = require("libs.hump.gamestate")
 
 require("menu")
-require("gameover")
+
+--un peu de debug
+function love.draw()
+	love.graphics.print(string.format('FPS: %d', love.timer.getFPS()), 740, 580)
+end
 
 function love.focus(focus)
 	print(string.format('<love.focus(%q) />', tostring(focus)))
@@ -33,7 +38,7 @@ end
 
 function love.quit()
 	print('<love.quit()>')
-	love.timer.sleep(1)
+	love.timer.sleep(1) --debug
 	print('</love.quit()>')
 end
 
