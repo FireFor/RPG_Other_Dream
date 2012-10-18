@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="25" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="contest-art" tilewidth="32" tileheight="32">
+  <tileoffset x="2" y="2"/>
+  <image source="../../../tilset/Map/contest-art.png" width="544" height="412"/>
+ </tileset>
+ <tileset firstgid="205" name="day_night_cycle_demo" tilewidth="32" tileheight="32">
+  <tileoffset x="2" y="2"/>
+  <image source="../../../tilset/Map/day_night_cycle_demo.png" width="768" height="412"/>
+ </tileset>
+ <tileset firstgid="493" name="tileset_preview" tilewidth="32" tileheight="32">
+  <tileoffset x="2" y="2"/>
+  <image source="../../../tilset/Map/tileset_preview.png" width="768" height="576"/>
+ </tileset>
+ <tileset firstgid="925" name="water" tilewidth="32" tileheight="32">
+  <tileoffset x="2" y="2"/>
+  <image source="../../../tilset/Map/water.png" width="96" height="192"/>
+  <tile id="0">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="943" name="BRivera--Tree" tilewidth="32" tileheight="32">
+  <tileoffset x="2" y="2"/>
+  <image source="../../../tilset/Map/BRivera--Tree.png" width="142" height="189"/>
+ </tileset>
+ <tileset firstgid="963" name="whitheredtree1" tilewidth="32" tileheight="32">
+  <tileoffset x="2" y="2"/>
+  <image source="../../../tilset/Map/whitheredtree1.png" width="76" height="92"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy9lM0NwjAMhUNGgFVKNwD2K6zCvSekApmgJ/72wEitsCzbtWvB4VPaxH7PTtM0OaX9QAUcgFWSWTJw8zi+B81m0G4n9CUv7l2qqc96vMczUo/Fx+phrZ9qebyt9WmjV0/S0rw9fUT37JS/WP6HX3hYzjJe6xYpnYEjAntQJE9OZ+QCXIEXQjoHms4NuBOdkQfwJHOchlQPpiCkGBprqQfnTOlG4iP5c7z+3Y/Ho5A5zdvzzT0ekT3lcrU6tbyoh0d7Tu+FeHP7HDk7VFPqsYJ7aA3UCMudQNeL4PN53oDmFtih0dsf1af9cR5vN/5RoQ==
+  </data>
+ </layer>
+ <layer name="Calque 2" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlIsKgCAMRQX//xN6l5pZ39gChRViSi+DXbgg4na2KTJGyl0FfzfuK9U/q5dEOlMHb7r3+E4JyGfA0roEVw8wJOI04DaSgWcwBGIE6mFB65T6ZrDi/rlvbIHypzJGOKetJ76v11nZfXcHrqZYRoh5ZLs7MIl9XGFr+qOz0wq1nzWg
+  </data>
+ </layer>
+</map>
