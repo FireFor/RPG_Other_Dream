@@ -1,11 +1,22 @@
 desert = gamestate.new()
 
-local map
+local map, tilesets
 
 --état du jeu
 function desert:init()
 	map = require("maps.desert")
-	print(serpent.block(map.tilesets))
+	
+	tilesets = {}
+	tilesets = setmetatable({}, {__index = function(t, k)
+		local f = love.graphics.newFont(k)
+		rawset(t, k, f)
+		return f
+	end})
+
+	for id, tileset in ipairs(map.tilesets) do
+		print(serpent.block(id))
+		print(serpent.block(tileset))
+	end
 end
 
 --évènements
